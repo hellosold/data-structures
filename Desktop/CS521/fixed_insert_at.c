@@ -58,7 +58,7 @@ int insert_at(struct list_node **head, int index, int data)
 
 	if((head == NULL || *head == NULL) && index == 0){
 		new_node->next = NULL;
-                *head = new_node;
+        *head = new_node;
 		return 0;
 	}
 
